@@ -22,9 +22,9 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/lissa0628/chetdven:${{ github.sha }} .
+          docker build -t ghcr.io/Lissa0628/chetdven:${{ github.sha }} .
 
       - name: Push Docker image
         run: |
-          docker push ghcr.io/lissa0628/chetdven:${{ github.sha }}
+          docker push ghcr.io/Lissa0628/chetdven:${{ github.sha }}
           
